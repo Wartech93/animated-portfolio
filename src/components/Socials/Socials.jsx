@@ -45,7 +45,7 @@ const styles = {
   container: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'start',
     height: '100vh',
     backgroundColor: 'transparent',
   },

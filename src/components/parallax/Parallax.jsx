@@ -36,7 +36,7 @@ const Parallax = ({ type }) => {
         <motion.a href="https://www.youtube.com/channel/UC2Nt2v5Tovo2CTOkaUnFG5g" className="socials">
             <Youtube/>
             </motion.a>
-        <motion.h1 style={{y: yText}}>{type==="services" ? "What We Do?" : "What we did?"}</motion.h1>        
+        <motion.h1  className="findme"style={{y: yText}}>{type==="services" ? "What can I do?" : "What's been done."}</motion.h1>        
         <motion.div className="mountains"style={{y: yBg}}></motion.div>
         <motion.div className="planets" style={{y: yPlanets}}></motion.div>
         <motion.div className="stars"></motion.div>
