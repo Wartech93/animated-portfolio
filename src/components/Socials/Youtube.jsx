@@ -23,7 +23,7 @@ const Youtube = () => {
   }, []);
 
   return (
-    <div style={styles.container}>
+    <div>
       <motion.div
         className='youtube'
         style={styles.box}

@@ -6,9 +6,9 @@ const Github= () => {
 
   useEffect(() => {
     const generateRandomPosition = () => {
-      const randomX = (Math.random() - 0.5) * 300; // Random x position between -100 and 100
-      const randomY = (Math.random() - 0.5) * 300; // Random y position between -100 and 100
-      const randomRotate = (Math.random() - 0.5) * 30; // Random rotation between -10 and 10
+      const randomX = Math.floor(Math.random() - 0.5) * 300; // Random x position between -100 and 100
+      const randomY = Math.floor(Math.random() - 0.5) * 300; // Random y position between -100 and 100
+      const randomRotate = Math.floor(Math.random() - 0.5) * 30; // Random rotation between -10 and 10
 
       setPosition({
         x: randomX,
@@ -23,7 +23,7 @@ const Github= () => {
   }, []);
 
   return (
-    <div style={styles.container}>
+    <div>
       <motion.div
       className='github'
       style={styles.box}

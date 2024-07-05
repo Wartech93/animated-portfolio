@@ -23,7 +23,7 @@ const Instagram = () => {
   }, []);
 
   return (
-    <div style={styles.container}>
+    <div>
       <motion.div
       className='instagram'
       style={styles.box}

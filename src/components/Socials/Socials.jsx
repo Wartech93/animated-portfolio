@@ -23,7 +23,7 @@ const Socials = () => {
   }, []);
 
   return (
-    <div style={styles.container}>
+    <div>
       <motion.div
       className='facebook'
         style={styles.box}
