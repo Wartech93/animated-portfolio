@@ -51,7 +51,7 @@
     }
 
     .imageContainer{
-        height: 300px;
+        height: 375px;
         width: 300px;
         position: absolute;        
         top: 0;
@@ -64,6 +64,9 @@
             border-radius: 20%;
             margin-top: 70px;
             
+        }
+        img:hover .hoverImg{
+            display: bkock;
         }
 
     }

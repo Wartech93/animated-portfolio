@@ -66,7 +66,7 @@ const Hero = () => {
             initial="initial" 
             animate="animate">Photographer Content Creator</motion.div>
             <div className="imageContainer">
-                <img src="/Hero.png" alt="Profile Photo" />
+                <img src="/profile.JPG" alt="Profile Photo" />
 
             </div>
         </div>
