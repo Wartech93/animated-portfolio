@@ -17,7 +17,7 @@ const Parallax = ({ type }) => {
     });
 
     const yBg=useTransform(scrollYProgress, [0,1], ["0%", "50%"])
-    const yPlanets=useTransform(scrollYProgress, [0,1], ["0%", "100%"])    
+    const yPlanets=useTransform(scrollYProgress, [0,1], ["0%", "300%"])    
     const yText=useTransform(scrollYProgress, [0,1], ["0%", "200%"])
 
     return (
